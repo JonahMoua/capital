@@ -40,7 +40,7 @@ grid-area: col1;
 export const Column2 = styled.div`
 margin-bottom: 15px;
 padding: 0 15px;
-grid-area: col1;
+grid-area: col2;
 `
 
 export const TextWrapper = styled.div`
@@ -88,7 +88,7 @@ max-width: 555px;
 height: 100%;
 `
 
-export const Img = styled.div`
+export const Img = styled.img`
 width: 100%;
 margin: 0 0 10px 0;
 padding-right: 0; 

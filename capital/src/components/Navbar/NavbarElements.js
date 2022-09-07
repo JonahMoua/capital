@@ -82,6 +82,11 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
+&:hover{
+    color: #004fff;
+    transition: 0.2s ease-in-out;
+}
+
 &.active {
     border-bottom: 3px solid #004fff;
 }
