@@ -68,16 +68,16 @@ const Footer = () => {
                     </SocialLogo>
                     <WebsiteRights> Capital ⓒ {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+                        <SocialIconLink href='//www.facebook.com/jonah.moua.3/' target='_blank' aria-label='Facebook'>
                             <FaFacebook />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                        <SocialIconLink href='//www.instagram.com' target='_blank' aria-label='Instagram'>
                             <FaInstagram />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
+                        <SocialIconLink href='//www.youtube.com' target='_blank' aria-label='Youtube'>
                             <FaYoutube />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+                        <SocialIconLink href='//.twitter.com' target='_blank' aria-label='Twitter'>
                             <FaTwitter />
                         </SocialIconLink>
                         <SocialIconLink href='//www.linkedin.com/in/jonahmoua1' target='_blank' aria-label='Linkedin'>
