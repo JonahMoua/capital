@@ -10,7 +10,7 @@ right: 0;
 top: 0;
 z-index: 0;
 overflow: hidden;
-background: #004fff
+background: #004fff;
 `
 
 export const FormWrap = styled.div`
@@ -102,11 +102,12 @@ cursor: pointer;
     background: #fff;
 `
 
-export const Text = styled.span`
+export const Text = styled.a`
 text-align: center;
 margin-top: 24px;
 color: #fff;
 font-size: 14px;
+text-decoration: none;
 
 &:hover {
     transform: scale(1.05);
@@ -128,3 +129,4 @@ text-decoration: none;
     cursor: pointer;
 }
 `
+

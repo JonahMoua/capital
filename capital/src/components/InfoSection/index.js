@@ -28,7 +28,7 @@ darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
                         <Heading lightText={lightText}>{headLine}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         <BtnWrap>
-                            <Button to='home'
+                            <Button to='/signup'
                             smooth={true}
                             duration={500}
                             spy={true}
