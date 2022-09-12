@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import { FaBars } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
+import { useStateValue } from "../../StateProvider";
+import { auth } from "../../firebase";
 import { animateScroll as scroll } from 'react-scroll'
 import {
 Nav,
@@ -27,6 +29,13 @@ export const Navbar = ({ toggle }) => {
         }
     }
 
+    const [{ user }] = useStateValue();
+
+    const handleAuthenticaton = () => {
+    if (user) {
+      auth.signOut();
+    }
+  }
 
     useEffect(() => {
         window.addEventListener('scroll', changeNav)
@@ -81,6 +90,12 @@ export const Navbar = ({ toggle }) => {
                 exact='true'
                 offset={-78}
                 >Sign Up</NavLinks>
+            </NavItem>
+            <NavItem>
+                <NavLinks 
+                onClick={handleAuthenticaton}
+                >{!user ? 'Hello' : 'Welcome'} {!user ? 'Guest' : user.email}
+                </NavLinks>
             </NavItem>
         </NavMenu>
         <NavBtn>
