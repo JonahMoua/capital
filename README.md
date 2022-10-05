@@ -7,7 +7,7 @@
 <div align="center">
 
 
-  <h3 align="center">Covid Tracker</h3>
+  <h3 align="center">Capital</h3>
   <a href= "https://capital-a2b4b.web.app">Demo</a>
 
 </div>
